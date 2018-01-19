@@ -1,3 +1,13 @@
 .mainheading{
+    font-size: 50px;
     text-align: center;
+    color: white;
+}
+body{
+    background-image: url(https://originaldante.files.wordpress.com/2014/06/20067-desktop-wallpapers-mountains-in-the-mist.jpg)
+}
+p{
+    margin-left: 10px;
+    color: white;
+    font-family: Georgia;
 }
