@@ -1,3 +1,5 @@
+/* This is the styling used across all files  */
+
 .mainheading{
     font-size: 70px;
     text-align: center;
@@ -24,4 +26,8 @@ h4{
 
 h6{
     text-align: center;
+}
+
+th{
+    width:50%;
 }
