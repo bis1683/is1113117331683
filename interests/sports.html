@@ -4,6 +4,15 @@
         <!-- Page title of the form -->
         <title>Sports</title>
         
+        <!-- Enbedded CSS to style the buttons -->
+        <style>
+            button{
+                font-size:20px; 
+                padding:10px; 
+                border-radius:5px;
+            }
+        </style>
+        
         <!-- Refer to the CSS stylesheet -->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         
@@ -12,6 +21,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
+    
     <body>
         <!-- Heading on the form -->
         <h1 class="mainheading">Sports</h1>
@@ -24,14 +34,14 @@
         <!-- Details to be displayed -->
         <p><strong>Favourite Sport:</strong> Swimming</p>
         <p><strong>Training:</strong> When I have the time</p>
-       
+        
         <!-- Blank lines -->
         <br/>
         <br/>
         <br/>
         
         <!-- Button to go back to homepage and button to go next to travel -->
-        <p><a href="../homepage.html"><button>Back</button></a>
-        <a href="travel.html"><button>Next</button></a></p>
+        <p><a href="../homepage.html"><button class="button">Back</button></a>
+        <a href="travel.html"><button class="button" style="background-color:dodgerblue; border-color:dodgerblue;">Next</button></a></p>
     </body>
 </html>
