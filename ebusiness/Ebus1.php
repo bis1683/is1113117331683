@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Page title of the form -->
         <title>Select Product</title>
         
         <!---jQuery-->
@@ -8,46 +9,67 @@
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
     <body>
-        <h4>Select a Product</h4>
+        <!-- Heading on the form -->
+        <h4><strong>Select a Product</strong></h4>
         
-        <br/>
-        
+        <!-- Layout of the Page -->
         <form method="POST" action="Ebus2.php">
 
-        <label for="salesforce">
-            <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-            SaleForce @ $100
-        </label>
+            <!--Display Radio Button -->
+                <label for="salesforce">
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                SaleForce @ $100
+            </label>
         
-        <br/>
+            <!-- Blank lines -->
+            <br/>
+            <br/>
+            <br/>
         
-        <label for ="aws">
-            <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-            AWS @ $300
-        </label>
+            <!--Display Radio Button -->
+            <label for ="aws">
+                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                AWS @ $300
+            </label>
         
-        <br/>
-        <br/>
+            <!-- Blank lines -->
+            <br/>
+            <br/>
+            <br/>
         
-        <label for="subtotal">
-            Sub Total
-            <input type="text" id="subtotal" value="0.00" readonly/>
-        </label>
+            <!--Display Textbox -->
+            <label for="subtotal">
+                Sub Total
+                <input type="text" id="subtotal" value="0.00" readonly/>
+            </label>
         
-        <br/>
+            <!-- Blank lines -->
+            <br/>
+            <br/>
+            <br/>
         
-        <label for="total">
-            Total
-            <input type="text" id="total" value="0.00" readonly/>
-        </label>
+            <!--Display Textbox -->
+            <label for="total">
+                Total
+                <input type="text" id="total" value="0.00" readonly/>
+            </label>
         
-        <br/>
+            <!-- Blank lines -->
+            <br/>
+            <br/>
+            <br/>
         
-        <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <!--Display Button -->
+            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         
         </form>
         
+        <!-- Blank lines -->
         <br/>
+        <br/>
+        <br/>
+        
+        <!--Display Button -->
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>
