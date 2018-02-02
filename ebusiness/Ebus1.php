@@ -8,14 +8,14 @@
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
     <body>
-        <h4>Select a Producet</h4>
+        <h4>Select a Product</h4>
         
         <br/>
         
-        <form method="POST" action ="Ebus2.php">
+        <form method="POST" action="Ebus2.php">
 
-        <label for="saleforce">
-            <input type="radio" id="saleforce" name="product" checked onClick="disablebtnProceed()"/>
+        <label for="salesforce">
+            <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
             SaleForce @ $100
         </label>
         
@@ -48,7 +48,7 @@
         </form>
         
         <br/>
-        <button onClick="calSub()">Calculate Cost</button>
+        <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>
 </html>>
