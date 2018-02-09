@@ -1,20 +1,20 @@
 /* This is the styling used for the Page Piling on the travel file */
 
 #section1{
-    background-color: rgb(70, 124, 230)
+    background-color:rgb(0, 64, 108)
 }
 
 #section2{
-    background-color: rgb(96, 137, 255)
+    background-color:rgb(96, 137, 255)
 }
 
 #section3{
-    background-color: rgb(67, 120, 170)
+    background-color:rgb(141, 204, 255)
 }
 
 .section{
-    font-size: 35px;
-    text-align: center;
-    color: white;
-    font-family: georgia;
+    font-size:35px;
+    text-align:center;
+    color:white;
+    font-family:georgia;
 }

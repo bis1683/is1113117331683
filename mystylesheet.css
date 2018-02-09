@@ -1,35 +1,35 @@
 /* This is the styling used across all files  */
 
 .mainheading{
-    font-size: 70px;
-    text-align: center;
-    color: white;
-    font-family: georgia;
+    font-size:70px;
+    text-align:center;
+    color:white;
+    font-family:georgia;
 }
 
 body{
-    background-image: url(https://media.istockphoto.com/photos/beautiful-sky-with-white-cloud-background-picture-id517897328?k=6&m=517897328&s=612x612&w=0&h=KPbfrZFbyN6ZGb8jGoLGIKyke5O5vz382MXePFUg1-g=);
-    background-size:Cover;
+    background-image:url(http://images.all-free-download.com/images/graphicthumb/dark_blue_sky_199085.jpg);
+    background-size:cover;
 }
 
 p{
-    font-size: 35px;
-    text-align: center;
-    color: white;
-    font-family: georgia;
+    font-size:35px;
+    text-align:center;
+    color:white;
+    font-family:georgia;
 }
 
 h4{
-    text-align: center;
-    color: white;
-    font-family: georgia;
+    text-align:center;
+    color:white;
+    font-family:georgia;
 }
 
 h6{
-    text-align: center;
+    text-align:center;
 }
 
 th{
     width:10%;
-    padding-bottom:9px;
+    padding-bottom:10px;
 }
