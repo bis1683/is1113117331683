@@ -1,4 +1,4 @@
-/* This is the styling used across all files  */
+/* This is the styling to be used across all cv and interests files  */
 
 .mainheading{
     font-size:70px;
@@ -7,9 +7,23 @@
     font-family:georgia;
 }
 
+.icon{
+    display:block;
+    width:250px;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 body{
-    background-image:url(http://files.all-free-download.com//downloadfiles/wallpapers/1920_1200/abstract_blue_light_wallpaper_abstract_other_2090.jpg);
+    background-image:url(https://earthobservatory.nasa.gov/blogs/fromthefield/files/2012/09/we-love-the-color-of-the-Sargasso-Sea.jpg);
     background-size:cover;
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 p{
@@ -19,14 +33,14 @@ p{
     font-family:georgia;
 }
 
+h6{
+    text-align:center;
+}
+
 h3, h4, table{
     text-align:center;
     color:white;
     font-family:georgia;
-}
-
-h6{
-    text-align:center;
 }
 
 th{
