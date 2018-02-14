@@ -1,36 +1,28 @@
-/* This is the styling used for the Page Piling on the travel file and the divided area on the cloud file */
-
-.section{
-    font-size:35px;
-    text-align:center;
-    color:white;
-    font-family:georgia;
-}
+/* This is the styling used for the Page Piling on the travel file */
 
 #section1{
     background-color:rgb(0, 64, 108);
 }
 
 #section2{
-    background-color:rgb(96, 137, 255);
+    background-color:rgb(114, 142, 252);
 }
 
 #section3{
-    background-color:rgb(141, 204, 255);
+    background-color:rgb(25, 92, 225);
 }
 
-#divide1{
-    background-color:rgb(110, 193, 248);
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:900px;
+    height:450px;
 }
 
-#divide2{
-    background-color:rgb(51, 171, 249);
-}
-
-#divide3{
-    background-color:rgb(48, 129, 238);
-}
-
-#divide4{
-    background-color:rgb(45, 100, 245);
+p{
+    font-size:35px;
+    text-align:center;
+    color:white;
+    font-family:georgia;
 }
