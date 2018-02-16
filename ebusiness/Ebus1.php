@@ -15,10 +15,10 @@
         <h4><strong>Select a Product</strong></h4>
         <br/>
         
-        <!-- Layout of the Page and Proceed to Ebus2 when all actions completed -->
-        <form method="POST" action="Ebus2.php" name="Product">
+        <!-- Layout of the page and proceed to Ebus2 when all actions completed -->
+        <form method="POST" action="Ebus2.php">
 
-            <!-- Saleforce Radio Button -->
+            <!-- Saleforce radio button -->
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SaleForce @ $100
@@ -26,7 +26,7 @@
             <br/>
             <br/>
             
-            <!-- Cloud 9 Radio Button -->
+            <!-- Cloud 9 radio button -->
             <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                 Cloud 9 @ $200
@@ -34,7 +34,7 @@
             <br/>
             <br/>
             
-            <!-- AWS Radio Button -->
+            <!-- AWS radio button -->
             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 Amazon Web Services @ $300
@@ -42,7 +42,7 @@
             <br/>
             <br/>
             
-            <!-- Gmail Radio Button -->
+            <!-- Gmail radio button -->
             <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Gmail @ $400
@@ -50,15 +50,15 @@
             <br/>
             <br/>
            
-            <!-- Subtotal Textbox -->
+            <!-- Subtotal textbox -->
             <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" value="0.00" readonly/>
             </label>
             <br/>
             <br/>
             
-            <!-- Discount Textbox -->
+            <!-- Discount textbox -->
             <label for="discount">
                 Discount @ 5%
                 <input type="text" id="discount" value="0.00" readonly/>
@@ -66,15 +66,15 @@
             <br/>
             <br/>
             
-            <!-- VAT Textbox -->
+            <!-- VAT textbox -->
             <label for="vat">
                 VAT @ 10%
-                <input type="text" id="VAT" value="0.00" readonly/>
+                <input type="text" id="vat" value="0.00" readonly/>
             </label>
             <br/>
             <br/>
            
-            <!-- Total Textbox -->
+            <!-- Total textbox -->
             <label for="total">
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
@@ -82,15 +82,17 @@
             <br/>
             <br/>
         
-            <!-- Button to Submit -->
+            <!-- Button to submit -->
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             <br/>
             <br/>
             
         </form>
         
-        <!-- Button to Calculate the total cost-->
-        <button onClick="calcSub();">Calculate Cost</button>
+        <!-- Button to calculate the total cost -->
+        <button onClick="calcSub()">Calculate Cost</button>
+        
+        <!-- Button to clear the form to start again -->
         <button href="Ebus1.php">Clear Choice</button>
     </body>
     
