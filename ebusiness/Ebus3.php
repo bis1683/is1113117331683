@@ -12,9 +12,12 @@ session_start();
     
     <body>
         <h4>Receipt</h4>
+        <br/>
         
         <?php
         //Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo "Name: " . $_POST["user_name"] . "<br/>";
+        echo "Email: " . $_POST["user_email"] . "<br/>";
+        echo "Total Price: " . $_SESSION["total"] . "<br/>";
         ?>
     </body>
