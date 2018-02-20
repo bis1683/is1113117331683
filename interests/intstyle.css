@@ -1,5 +1,4 @@
-/* This is the styling used for all the interset file */
-
+/* This is the styling used for all the buttons in the interset file */
 .button1{
     font-size:20px;
     width:76px;
@@ -17,6 +16,7 @@
     border-color:dodgerblue;
 }
 
+/* This is the styling used on the cloud services vendors page to divide sections */
 #divide1{
     background-color:rgb(110, 193, 248);
 }

@@ -23,4 +23,5 @@ session_start();
         echo "Total Price: " . $_SESSION["total"] . "<br/>";
         ?>
     </body>
+    
 </html>

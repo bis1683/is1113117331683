@@ -1,5 +1,4 @@
 /* This is the styling to be used across all cv and interests files  */
-
 .mainheading{
     font-size:70px;
     text-align:center;
@@ -7,16 +6,8 @@
     font-family:georgia;
 }
 
-.icon{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:250px;
-    height:250px;
-}
-
 body{
-    background-image:url(https://earthobservatory.nasa.gov/blogs/fromthefield/files/2012/09/we-love-the-color-of-the-Sargasso-Sea.jpg);
+    background-image:url(https://charlierobinson.files.wordpress.com/2015/01/dandelion-background-2560x1440.jpg);
     background-size:cover;
 }
 
@@ -33,7 +24,7 @@ p{
     font-family:georgia;
 }
 
-h3, h4, table{
+h4{
     text-align:center;
     color:white;
     font-family:georgia;
@@ -43,7 +34,36 @@ h6{
     text-align:center;
 }
 
-th{
-    width:10%;
+/* All the styling for images that leads to a website */
+.link{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:250px;
+    height:250px;
+}
+
+/* All the styling for images in the top navagation bar */
+.icon{
+    width:50px; 
+    height:50px;
+}
+
+/* All the styling in the top navagation bar */
+.icon-bar {
+    background-color:rgb(142, 197, 191);
+    width:100%;
+    overflow:auto;
+}
+
+.icon-bar a {
+    float:left;
+    width:14.285%;
+    text-align:center;
+    padding-top:10px;
     padding-bottom:10px;
+}
+
+.icon-bar a:hover {
+    background-color:rgb(237, 243, 241);
 }
