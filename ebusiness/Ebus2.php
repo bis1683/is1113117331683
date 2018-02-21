@@ -31,7 +31,7 @@ session_start();
             
             <!-- Email textbox -->
             <label for="user_email">Email</label>
-            <input type="text" id="user_email" placeholder="eg. 123456789@gmail.com" name="user_email"/>
+            <input type="text" id="user_email" placeholder="eg. 999@gmail.com" name="user_email"/>
             <br/>
             <br/>
             

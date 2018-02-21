@@ -93,7 +93,7 @@
         <button onClick="calcSub()">Calculate Cost</button>
         
         <!-- Button to clear the form to start again -->
-        <button href="Ebus1.php">Clear Choice</button>
+        <a href="Ebus1.php"><button>Clear Choice</button></a>
     </body>
     
 </html>

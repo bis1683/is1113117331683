@@ -1,10 +1,10 @@
-/* This is the styling used for the Page Piling on the travel file */
+/* Styling for the travel file */
 img{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:900px;
-    height:450px;
+    width:800px;
+    height:400px;
 }
 
 p{
@@ -14,15 +14,15 @@ p{
     font-family:georgia;
 }
 
-/* This is the styling used on the interest page for different sections */
+/* Styling for the different sections of page pilling */
 #section1{
-    background-color:rgb(38, 76, 173);
+    background-color:rgb(174, 126, 91);
 }
 
 #section2{
-    background-color:rgb(114, 142, 252);
+    background-color:rgb(91, 80, 106);
 }
 
 #section3{
-    background-color:rgb(25, 92, 225);
+    background-color:rgb(70, 81, 65);
 }

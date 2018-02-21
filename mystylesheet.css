@@ -1,8 +1,8 @@
-/* This is the styling to be used across all files  */
+/* Styling to be used across all files  */
 .mainheading{
     font-size:70px;
     text-align:center;
-    color:white;
+    color:rgb(51, 29, 16);
     font-family:georgia;
 }
 
@@ -20,7 +20,7 @@ img{
 p{
     font-size:40px;
     text-align:center;
-    color:white;
+    color:rgb(51, 29, 16);
     font-family:georgia;
 }
 
@@ -34,7 +34,7 @@ h6{
     text-align:center;
 }
 
-/* All the styling for images that leads to a website */
+/* Styling for all the images that leads to a website */
 .link{
     display:block;
     margin-left:auto;
