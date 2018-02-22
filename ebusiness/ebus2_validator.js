@@ -1,41 +1,51 @@
 /*global $ */
 
-//Function to ensure all the textbox are filled in
-function validateDetails(){
+//Used (console.log()) to identify the errors
 
-    //Declare all the variables
-    var name;
-    var email;
-    var pin;
-    var completed;
+//Function to check the name textbox
+function validateName(){
     
-    //Assign all the variable a value
-    name = document.getElementById("user_name").text;
-    email = document.getElementById("user_email").text;
-    pin = document.getElementById("user_pin").value;
-    completed == 0;
+    var name = document.getElementById("user_name").value; //Declare and assign a value
     
-    //If statement to check if the name textbox is empty
     if(name == ""){
-        alert("Please enter your Name.");
+        alert("Please enter your Name"); //If the textbox is empty 
     }
-    
-    //If statement to check if the email textbox is empty
+    else if(isNaN(name)){
+       validateEmail(); //Proceed to check email
+    }
+    else{
+        alert("Please enter your Name correctly"); //If the name is invalid
+    }
+}
+
+//Function to check the email textbox
+function validateEmail(){
+
+    var email= document.getElementById("user_email").value; //Declare and assign a value
+   
     if(email == ""){
-        alert("Please enter your Email.");
+        alert("Please enter your Email"); //If the textbox is empty 
     }
-    
-    //If statement to check if the pin textbox is empty or the pin is invalid
+    else{
+        validatePIN(); //Proceed to check PIN
+    }
+}
+
+//Function to check if the PIN textbox is filled in and valid
+function validatePIN(){
+
+    var pin = document.getElementById("user_pin").value; //Declare and assign a value
+
     if(pin == ""){
-        alert("Please enter your PIN");
+        alert("Please enter your PIN"); //If the textbox is empty 
     }
     else if(String(pin).length < 4){
-        alert("Please make sure yout PIN is accurate");
+        alert("Your PIN was incorrect, please enter it again."); //If the PIN is invaild 
+        disablebtnPurchase();
     }
     else{
         enablebtnPurchase();
     }
-    
 }
 
 //Function that enables the proceed button

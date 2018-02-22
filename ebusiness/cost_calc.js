@@ -3,7 +3,7 @@
 //If statement to determine the subtotal
 function calcSub(){
     
-    var argSubTotal;
+    var argSubTotal; //Declare the variable
     
     if(document.getElementById("salesforce").checked){
         argSubTotal = 100; //The subtotal if Saleforce is checked
@@ -18,7 +18,7 @@ function calcSub(){
         argSubTotal = 400; //The subtotal if Gmail is checked
     }
     
-    calcDisVatTotal(argSubTotal); //Pass the value to complete the function calcDisVatTotal() next
+    calcDisVatTotal(argSubTotal); //Pass the value to complete the function calcDisVatTotal()
 }
 
 //Function to calculate discount, vat and total
@@ -31,13 +31,13 @@ function calcDisVatTotal(parmSubTotal){
     var y = 0.1;
     var vatAmt;
     var totalPrice;
-    
+
     subTotal = parmSubTotal; //Pass the parameter value into a variable
     discountAmt = (subTotal * x); //Calculate the discount
     vatAmt = ((subTotal - discountAmt) * y); //Calculate the vat
     totalPrice = (subTotal - discountAmt + vatAmt ); //Calculate the total
     
-    display(subTotal, discountAmt, vatAmt, totalPrice); //Pass the value to complete the function display() next
+    display(subTotal, discountAmt, vatAmt, totalPrice); //Pass the value to complete the function display()
 }
 
 //Function to display all the value passed through

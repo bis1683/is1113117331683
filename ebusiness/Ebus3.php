@@ -7,11 +7,13 @@ session_start();
 <html>
     
     <head>
+        
         <!-- Title of the form -->
         <title>Receipt</title>
     </head>
     
     <body>
+        
         <!-- Heading -->
         <h4>Receipt</h4>
         <br/>

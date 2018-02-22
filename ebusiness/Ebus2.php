@@ -7,15 +7,19 @@ session_start();
 <html>
     
     <head>
+        
         <!-- Title of the form -->
         <title>Enter Details</title>
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!-- Refer to Javascript page -->
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     
     <body>
+        
         <!-- Heading -->
         <h4>Please enter your payment details</h4>
         <br/>
@@ -45,11 +49,10 @@ session_start();
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
             <br/>
             <br/>
-            
         </form>
         
         <!-- Button to validate -->
-        <button onClick="validateDetails()">Validate</button>
+        <button onClick="validateName()">Validate</button>
         
         <?php
         //Set session variables to be passed to the next page, Ebus3
