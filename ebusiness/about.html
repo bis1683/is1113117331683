@@ -1,30 +1,19 @@
-<?php
-//Start the session
-session_start();
-?>
-
 <!DOCTYPE html>
 <html>
     
     <head>
         
         <!-- Title -->
-        <title>Enter Details</title>
-        
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title>Cloud Services</title>
         
         <!-- Refer to the CSS stylesheets -->
-        <link rel="stylesheet" href="store.css" type="text/css"/>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="../allstyle.css" type="text/css"/>
-        
-        <!-- Refer to Javascript page -->
-        <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     
     <body>
         
-        <!-- Top navagation bar -->
+       <!-- Top navagation bar -->
         <div class="icon-bar">
             
             <!-- Click to visit various parts of the website -->
@@ -40,49 +29,23 @@ session_start();
             <a href="https://is1113117331683.herokuapp.com"><img src="https://images.contentful.com/3ouphkrynjol/2JnkoMjwxy8s8cCwyeogai/2f29f18c92df8feb3cf7928d2cf3f8a3/heroku-512.png" alt="Click to visit the page through the offical Heroku link." title="is1113117331683.herokuapp.com" class="icon"></img></a>
 
             <!-- Heading -->
-            <h4>Please enter your payment details</h4>
+            <h1 class="mainheading">Smartest Cloud Ltd.</h1>
+            <h2>Somewhere Main Street</h2>
+            <h2>New City</h2>
+            <h2>Tel: 990990990</h2>
+            <h2>Email: SmartestCloud@gmail.com</h2>
         </div>
         <br/>
         <br/>
         
-        <div>
-        <!-- Layout of the page and proceed to Ebus3 when all actions completed -->
-        <form method="POST" action="Ebus3.php" name="Details">
-            
-            <!-- Name textbox -->
-            <label for="user_name">Name: </label>
-            <input type="text" id="user_name" placeholder="eg. John Smith" name="user_name"/>
-            <br/>
-            <br/>
-            
-            <!-- Email textbox -->
-            <label for="user_email">Email: </label>
-            <input type="text" id="user_email" placeholder="eg. 999@gmail.com" name="user_email"/>
-            <br/>
-            <br/>
-            
-            <!-- PIN textbox -->
-            <label for="user_pin">PIN: </label>
-            <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4"/>
-            <br/>
-            <br/>
+        <!-- Images to decorate the page -->
+        <img src="https://fontmeme.com/images/salesforce-logo.png" alt="An Image of Saleforce." title="Saleforce" style="width:300px; height:300px; margin:24px;"></img>
+        <img src="https://profitablesites.com/wp/wp-content/uploads/2017/02/gmail.png" alt="An Image of Gmail." title="Gmail" style="width:300px; height:300px; margin:24px;"></img>
+        <img src="https://iwg.blob.core.windows.net/marketplace/ff5fd1ab-425c-4226-9afb-efc51609b0a9.png" alt="An Image of Amazon Web Services." title="Amazon Web Services" style="width:300px; height:300px; margin:24px;"></img>
+        <div style="width:300px; height:300px;background-color:white; float:right; margin:24px;"><img src="https://avatars3.githubusercontent.com/u/1226004?s=280&v=4" alt="An Image of Cloud 9." title="Cloud 9" style="width:300px; height:300px;"></img></div>
         
-            <!-- Button to submit -->
-            <button type="submit" id="btnPurchase" class="button4" style="width:350px;" disabled>Proceed with Purchase</button>
-            <br/>
-            <br/>
-        </form>
-        
-        <!-- Button to validate -->
-        <button class="button4" style="width:100px;" onClick="validateDetails()">Validate</button>
-        </div>    
-        
-        <?php
-        //Set session variables to be passed to the next page, Ebus3
-        $_SESSION["user_name"] = $_POST["user_name"];
-        $_SESSION["user_email"] = $_POST["user_email"];
-        $_SESSION["total"] = $_POST["total"];
-        ?>
+        <!-- Button to go back to homepage -->
+        <p><a href="Ebus1.php"><button class="button4" style="width:200px; background-color:rgb(27,161,184);">Start Shopping</button></a></p>
     </body>
     
 </html>

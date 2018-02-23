@@ -3,13 +3,13 @@
     
     <head>
         
-        <!-- Title of the form -->
+        <!-- Title -->
         <title>Select Product</title>
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
-        <!-- Refer to the CSS stylesheet -->
+        <!-- Refer to the CSS stylesheets -->
         <link rel="stylesheet" href="store.css" type="text/css"/>
         <link rel="stylesheet" href="../allstyle.css" type="text/css"/>
         
@@ -22,21 +22,20 @@
         <!-- Top navagation bar -->
         <div class="icon-bar">
             
-            <!-- Icon to bring the user to various part of the website -->
-            <a href="../homepage.html"><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Home-2-2-icon.png" alt="Click to go to the Homepage." class="icon" title="Home"></img></a>
-            <a href="../cv/cv_page1.html"><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Profile-icon.png" alt="Click to go to the Curriculum Vitae page." class="icon" title="Curriculum Vitae"></img></a> 
-            <a href="../interests/sports.html"><img src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Sports-Swimming-icon.png" alt="Click to go to the Interests page." class="icon" title="Interests"></img></a>
-            <a href="../aboutcloud.html"><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Clouds-icon.png" alt="Click to go to the About Cloud page." class="icon" title="About Cloud"></img></a>
-            <a href="Ebus1.php"><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Shopping-Cart-icon.png" alt="Click to go to the Online Store page." class="icon" title="Online Store"></img></a>
+            <!-- Click to visit various parts of the website -->
+            <a href="../homepage.html"><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Home-2-2-icon.png" alt="Click to visit the Home page." title="Home" class="icon"></img></a>
+            <a href="../cv/cv_page1.html"><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Profile-icon.png" alt="Click to visit the Curriculum Vitae page." title="Curriculum Vitae" class="icon"></img></a> 
+            <a href="../interests/sports.html"><img src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Sports-Swimming-icon.png" alt="Click to visit the Interests page." title="Interests" class="icon"></img></a>
+            <a href="about.html"><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Clouds-icon.png" alt="Click to visit the Smartest Cloud Ltd. page." title="Smartest Cloud Ltd." class="icon"></img></a>
             
-            <!-- Link to my Github page -->
-            <a href="https://github.com/bis1683/is1113117331683/graphs/commit-activity"><img src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Programming-Github-icon.png" alt="Click to go to my Github page." class="icon" title="Github Link"></img></a>
+            <!-- Click to visit my Github page -->
+            <a href="https://github.com/bis1683/is1113117331683/graphs/commit-activity"><img src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Programming-Github-icon.png" alt="Click to visit my Github page." title="Github Link" class="icon"></img></a>
             
-            <!-- Link of my offical Heroku page -->
-            <a href="https://is1113117331683.herokuapp.com"><img src="https://images.contentful.com/3ouphkrynjol/2JnkoMjwxy8s8cCwyeogai/2f29f18c92df8feb3cf7928d2cf3f8a3/heroku-512.png" alt="Click to visit the page through the offical Heroku link." class="icon" title="is1113117331683.herokuapp.com"></img></a>
+            <!-- Click to visit offical Heroku page -->
+            <a href="https://is1113117331683.herokuapp.com"><img src="https://images.contentful.com/3ouphkrynjol/2JnkoMjwxy8s8cCwyeogai/2f29f18c92df8feb3cf7928d2cf3f8a3/heroku-512.png" alt="Click to visit the page through the offical Heroku link." title="is1113117331683.herokuapp.com" class="icon"></img></a>
 
             <!-- Heading -->
-            <h4><strong>Select a Product</strong></h4>
+            <h4>Select a Product</h4>
         </div>
         <br/>
         <br/>
@@ -110,14 +109,14 @@
             <br/>
         
             <!-- Button to submit -->
-            <button type="submit" id="btnProceed" class="button4" style="width:250px; height:48px;" disabled>Add to Shopping Cart</button>
+            <button type="submit" id="btnProceed" class="button4" style="width:250px;" disabled>Add to Shopping Cart</button>
             <br/>
             <br/>
         </form>
         
         <!-- Button to calculate the total cost and button to clear the form to start again-->
-        <p><button class="button4" style="width:300px; height:48px;" onClick="calcSub()" >Calculate Cost</button>
-        <a href="Ebus1.php"><button class="button3" style="width:150px; height:48px;">Clear Choice</button></a></p>
+        <p><button class="button4" style="width:300px;" onClick="calcSub()" >Calculate Cost</button>
+        <a href="Ebus1.php"><button class="button3" style="width:150px;">Clear Choice</button></a></p>
         </div>
     </body>
     
