@@ -1,0 +1,60 @@
+/* Styling for all the icons in the top navagation bar */
+.icon{
+    width:50px; 
+    height:50px;
+}
+
+/* Styling for the top navagation bar */
+.icon-bar {
+    background-color:rgb(142, 197, 191);
+    width:100%;
+    overflow:auto;
+}
+
+.icon-bar a {
+    float:left;
+    width:14.285%;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.icon-bar a:hover {
+    background-color:rgb(237, 243, 241);
+}
+
+/* Styling used for all the buttons in the interest, about cloud and ebus files */
+.button1{
+    font-size:20px;
+    width:78px;
+    height:48px;
+    border-radius:6px;
+}
+
+.button2{
+    font-size:20px;
+    width:78px;
+    height:48px;
+    border-radius:6px;
+    color:white; 
+    background-color:rgb(27,161,184);
+    border-color:rgb(27,161,184);
+}
+
+.button3{
+    font-size:20px;
+    border-radius:6px;
+    background-color:rgb(237, 243, 241);
+    border-color:rgb(237, 243, 241);
+}
+
+.button4{
+    font-size:20px;
+    border-radius:6px;
+    background-color:rgb(237, 243, 241);
+    border-color:rgb(27,161,184);
+}
+
+.button4:hover{
+    background-color:rgb(27,161,184);
+}
