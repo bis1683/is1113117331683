@@ -16,6 +16,8 @@
         <!-- Top navagation bar -->
         <div class="icon-bar">
             
+            <!-- Alt specifies an alternate text for the image, title diaplays the tooltip -->
+            
             <!-- Click to visit various parts of the website -->
             <a href="../homepage.html"><img src="https://png.icons8.com/metro/1600/home.png" alt="Click to visit the Home page." title="Home" class="icon"></img></a>
             <a href="../cv/cv_page1.html"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/225927-200.png" alt="Click to visit the Curriculum Vitae page." title="Curriculum Vitae" class="icon"></img></a> 
@@ -32,20 +34,29 @@
             <h1 class="mainheading">Cloud Services</h1>
         </div>
         <br/>
-        <br/>
         
         <!-- Cloud Services Information -->
-        <img src="https://fontmeme.com/images/salesforce-logo.png" alt="An Image of Saleforce." title="Saleforce" style="width:250px; height:250px; margin-left:10px;"></img>
-        <p><strong>Software as a Service:</strong></p>
         
-        <img src="https://profitablesites.com/wp/wp-content/uploads/2017/02/gmail.png" alt="An Image of Gmail." title="Gmail" style="width:250px; height:250px; margin-left:10px;"></img>
-        <p><strong>Platform as a Service:</strong></p>
-        
-        <img src="https://iwg.blob.core.windows.net/marketplace/ff5fd1ab-425c-4226-9afb-efc51609b0a9.png" alt="An Image of Amazon Web Services." title="Amazon Web Services" style="width:250px; height:250px; margin-left:10px;"></img>
-        <p><strong>Infrastructure as a Service:</strong></p>
-        
-        <img src="https://amaze.website/wp-content/uploads/2016/02/cloud9.png" alt="An Image of Cloud 9." title="Cloud 9" style="width:250px; height:250px; margin-left:10px;"></img>
-        <p><strong>Communication as a Service:</strong></p>
+        <!-- Using div and grid to allow the different sections to auto adjust to fill the page depending on the tab size -->
+        <div style="display:grid; grid-template-columns:auto auto; grid-template-row:auto auto; grid-gap:20px;">
+            <div style="background-color:rgb(237, 243, 241); border-radius:20px;">
+                <p><strong>Infrastructure as a Service:</strong></p>
+                <p>IaaS is a service which provides the fundamental virtual infrastructures (e.g. servers, firewalls and cloud storage etc.) on demand. The company has full control over the hardware, but the customer can adjust resource consumption based on work load. But the key use of IaaS is in the development and deployment of PaaS, SaaS.</p>
+            </div>
+            <div style="background-color:rgb(142, 197, 191); border-radius:20px;">
+                <p><strong>Platform as a Service:</strong></p>
+                <p>PaaS is a platform which provides the customer with the framework  to build and develop a software application.  The software built are hosted in the cloud and users can simply access it through a web browser. This provides customer working on the software with secure internet connection and no worries regarding other infrastructural issues (e.g. updates).</p>
+            </div>
+            <div style="background-color:rgb(142, 197, 191); border-radius:20px;">
+                <p><strong>Software as a Service:</strong></p>
+                <p>SaaS is a cloud service which allows the customer to access the software application online at any given time. This is done through the use of a web browser and files saved in the cloud. Instead of buying and installing the software, the customer now pays a subscription monthly or annually, which significantly lowers the cost for updates and the people needed to manage it.</p>
+            </div>
+            <div style="background-color:rgb(237, 243, 241); border-radius:20px;">
+                <p><strong>Communication as a Service:</strong></p>
+                <p>CaaS (a subcategory of Saas) is a cloud technology which provides software integration platform for delivering communications (e.g. Text). It is a middleware software meaning it acts as a bridge between the operating system and applications. Caas is popular among small and median companies as it does not require upfront capital expenses and it is flexible in its feature.</p>
+            </div>
+        </div>
+        <br/>
         
         <!-- Button to go back to travel and button to go back to homepage -->
         <p><a href="travel.html"><button class="button1">Back</button></a>

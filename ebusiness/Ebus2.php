@@ -27,6 +27,8 @@ session_start();
         <!-- Top navagation bar -->
         <div class="icon-bar">
             
+            <!-- Alt specifies an alternate text for the image, title diaplays the tooltip -->
+            
             <!-- Click to visit various parts of the website -->
             <a href="../homepage.html"><img src="https://png.icons8.com/metro/1600/home.png" alt="Click to visit the Home page." title="Home" class="icon"></img></a>
             <a href="../cv/cv_page1.html"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/225927-200.png" alt="Click to visit the Curriculum Vitae page." title="Curriculum Vitae" class="icon"></img></a> 
@@ -42,7 +44,6 @@ session_start();
             <!-- Heading -->
             <h4>Please enter your payment details</h4>
         </div>
-        <br/>
         <br/>
         
         <div>

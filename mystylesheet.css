@@ -24,10 +24,6 @@ h2{
     font-family:georgia;
 }
 
-h6{
-    text-align:center;
-}
-
 /* Styling for all the images that leads to an external web page */
 .link{
     display:block;
