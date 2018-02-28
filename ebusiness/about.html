@@ -4,7 +4,28 @@
     <head>
         
         <!-- Title -->
-        <title>Cloud Services</title>
+        <title>Smartest Cloud Ltd.</title>
+        
+        <!-- Internal Style Sheet -->
+        <style>
+            /* To style the cards which holds the product information */
+            .card{
+                background-color:rgb(142, 197, 191);
+                width:100%;
+                border-radius:20px;
+            }
+            
+            /* To change the colour of the links in the bottom navagation bar as action changes */
+            a:link{
+                color:rgb(51, 29, 16);
+            } 
+            a:visited{
+                color:rgb(102, 140, 99);
+            } 
+            a:hover{
+                color:rgb(237, 243, 241);
+            }
+        </style>
         
         <!-- Refer to the CSS stylesheets -->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
@@ -38,30 +59,40 @@
             <h2>Email: SmartestCloud@gmail.com</h2>
         </div>
         <br/>
+        <br/>
         
-
-        <!-- Alt specifies an alternate text for the image, title diaplays the tooltip -->
+        <!-- Product information -->
         
         <!-- Using div and display:grid to allow the images to auto adjust to fill the page depending on the tab size -->
         <div style="display:grid; grid-template-columns:auto auto auto auto; grid-gap:20px;">
             
-            <!-- Click to visit the saleforce websites -->
-            <a href="https://www.salesforce.com/eu/"><img src="https://fontmeme.com/images/salesforce-logo.png" alt="Click to visit the Saleforce Website." title="Saleforce Website Link" class="link"></img></a>
-            
-            <!-- Click to visit the gmail websites -->
-            <a href="https://www.google.com/gmail/about/#"><img src="https://profitablesites.com/wp/wp-content/uploads/2017/02/gmail.png" alt="Click to visit the Gmail Website." title="Gmail Website Link" class="link"></img></a>
-            
-            <!-- Click to visit the amazon web services websites -->
-            <a href="https://aws.amazon.com/"><img src="https://iwg.blob.core.windows.net/marketplace/ff5fd1ab-425c-4226-9afb-efc51609b0a9.png" alt="Click to visit the Amazon Web Services Website." title="Amazon Web Services Website Link" class="link"></img></a>
-            
-            <!-- Click to visit the cloud 9 websites -->
-            <a href="https://c9.io"><img src="https://amaze.website/wp-content/uploads/2016/02/cloud9.png" alt="Click to visit the Cloud 9 Website." title="Cloud 9 Website Link" class="link"></img></a>
+            <!-- Using card to seperate the information -->
+            <div class="card">
+                <br/>
+                <a href="https://aws.amazon.com/"><img src="https://iwg.blob.core.windows.net/marketplace/ff5fd1ab-425c-4226-9afb-efc51609b0a9.png" alt="Click to visit the Amazon Web Services Website." title="Amazon Web Services Website Link" class="link"></img></a>
+                <h2><strong>Amazon Web Services (</strong><a href="../interests/cloud.html#iaas" title="Infrastructure as a Service">IaaS</a>) is a subsidiary of Amazon.com which provides on-demand cloud computing platforms free of virtual cluster to individuals and companies through the Internet 24/7.</h2>
+            </div>
+            <div class="card">
+                <br/>
+                <a href="https://c9.io"><img src="https://amaze.website/wp-content/uploads/2016/02/cloud9.png" alt="Click to visit the Cloud9 IDE Website." title="Cloud9 IDE Website Link" class="link"></img></a>
+                <h2><strong>Cloud9 IDE (</strong><a href="../interests/cloud.html#paas" title="Platform as a Service">PaaS</a>) is an online integrated development environment developed by Amazon which enables the user to code with pre-configured workspaces that supports hundreds of programming languages.</h2>
+            </div>
+            <div class="card">
+                <br/>
+                <a href="https://www.salesforce.com/eu/"><img src="https://fontmeme.com/images/salesforce-logo.png" alt="Click to visit the Saleforce Website." title="Saleforce Website Link" class="link"></img></a>
+                <h2><strong>Saleforce (</strong><a href="../interests/cloud.html#saas" title="Software as a Service">SaaS</a>) is a platform owned by  Salesforce.com, Inc. which provides companies with an interface for case & task management and a system for automatically routing and escalating important events.</h2>
+            </div>
+            <div class="card">
+                <br/>
+                <a href="https://www.google.com/gmail/about/#"><img src="https://profitablesites.com/wp/wp-content/uploads/2017/02/gmail.png" alt="Click to visit the Gmail Website." title="Gmail Website Link" class="link"></img></a>
+                <h2><strong>Gmail (</strong><a href="../interests/cloud.html#caas" title="Communication as a Service">CaaS</a>) is a free, advertising-supported email service developed by Google which allow users to access email contents through the web browser.</h2>
+            </div>
         </div>
+        <br/>
         <br/>
         
         <!-- Button to go back to homepage and button to go to Ebus1 -->
-        <p><a href="homepage.html"><button class="button1">Home</button>
-        <a href="Ebus1.php"><button class="button4" style="width:200px; color:white; background-color:rgb(27,161,184);">Start Shopping</button></a></p>
+        <p><a href="Ebus1.php"><button class="button4" style="width:200px; color:white; background-color:rgb(27,161,184);">Start Shopping</button></a></p>
     </body>
     
 </html>

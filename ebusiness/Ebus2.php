@@ -52,19 +52,19 @@ session_start();
             
             <!-- Name textbox -->
             <label for="user_name">Name: </label>
-            <input type="text" id="user_name" placeholder="eg. John Smith" name="user_name"/>
+            <input type="text" id="user_name" placeholder="eg. John Smith" name="user_name" style="font-size:25px;"/>
             <br/>
             <br/>
             
             <!-- Email textbox -->
             <label for="user_email">Email: </label>
-            <input type="text" id="user_email" placeholder="eg. 999@gmail.com" name="user_email"/>
+            <input type="text" id="user_email" placeholder="eg. 999@gmail.com" name="user_email" style="font-size:25px;"/>
             <br/>
             <br/>
             
             <!-- PIN textbox -->
             <label for="user_pin">PIN: </label>
-            <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4"/>
+            <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" style="font-size:25px;"/>
             <br/>
             <br/>
         
