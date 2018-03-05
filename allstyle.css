@@ -24,37 +24,36 @@
 }
 
 /* Styling used for all the buttons in the interest, about cloud and ebus files */
-.button1{
+
+.button{
+    display: inline-block;
     font-size:20px;
-    width:78px;
-    height:48px;
+    padding:15px;
     border-radius:6px;
+    text-decoration:none;
 }
 
-.button2{
-    font-size:20px;
-    width:78px;
-    height:48px;
-    border-radius:6px;
+#button1{
+    color:black;
+    background-color:rgb(237, 243, 241);
+}
+
+#button2{
     color:white; 
     background-color:rgb(27,161,184);
-    border-color:rgb(27,161,184);
 }
 
-.button3{
-    font-size:20px;
-    height:48px;
-    border-radius:6px;
-}
-
-.button4{
-    font-size:20px;
-    height:48px;
-    border-radius:6px;
+#button3{
+    color:black;
     background-color:rgb(237, 243, 241);
-    border-color:rgb(27,161,184);
 }
 
-.button4:hover{
+#button4{
+    color:black; 
+    background-color:rgb(237, 243, 241);
+    border:2px solid rgb(27,161,184);
+}
+
+#button4:hover{
     background-color:rgb(27,161,184);
 }
