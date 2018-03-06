@@ -10,13 +10,13 @@ img{
 p{
     font-size:35px;
     text-align:center;
-    color:rgb(51, 29, 16);
+    color:white;
     font-family:georgia;
 }
 
 /* Styling for the different sections of page pilling */
 #section1{
-    background-color:rgb(56, 127, 71);
+    background-color:rgb(1, 50, 32);
 }
 
 #section2{

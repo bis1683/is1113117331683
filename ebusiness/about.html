@@ -11,8 +11,18 @@
             /* To style the cards which holds the product information */
             .card{
                 background-color:rgb(142, 197, 191);
-                width:100%;
                 border-radius:20px;
+                box-shadow: 0 10px 20px 0 rgb(175, 175, 175);
+            }
+            
+            /* To style the images in the footer */
+            .profile{
+                width:100px; 
+                height:100px; 
+                padding-top:40px;
+            }
+            .profile:hover{
+                opacity:0.5;
             }
             
             /* To change the colour of the links in the bottom navagation bar as action changes */
@@ -32,7 +42,7 @@
         <link rel="stylesheet" href="../allstyle.css" type="text/css"/>
     </head>
     
-    <body>
+    <body style="background-image:url(https://pre00.deviantart.net/87dc/th/pre/i/2012/351/2/4/cloudy_sky_background_by_goblinengineer-d5obh26.png); background-size:cover;">
         
        <!-- Top navagation bar -->
         <div class="icon-bar">
@@ -53,10 +63,6 @@
 
             <!-- Heading -->
             <h1 class="mainheading">Smartest Cloud Ltd.</h1>
-            <h2>Somewhere Main Street</h2>
-            <h2>Some City</h2>
-            <h2>Tel: 990990990</h2>
-            <h2>Email: SmartestCloud@gmail.com</h2>
         </div>
         <br/>
         <br/>
@@ -64,39 +70,51 @@
         <!-- Product information -->
         
         <!-- Using div and display:grid to allow the images to auto adjust to fill the page depending on the tab size -->
-        <div style="display:grid; grid-template-columns:auto auto; grid-gap:20px;">
+        <div style="display:grid; grid-template-columns:auto auto auto auto; grid-gap:20px;">
             
             <!-- Using card to seperate the information -->
+            <a href="https://aws.amazon.com/"><img src="https://iwg.blob.core.windows.net/marketplace/ff5fd1ab-425c-4226-9afb-efc51609b0a9.png" alt="Click to visit the Amazon Web Services Website." title="Amazon Web Services Website Link" class="link"></a>
             <div class="card">
-                <br/>
-                <a href="https://aws.amazon.com/"><img src="https://iwg.blob.core.windows.net/marketplace/ff5fd1ab-425c-4226-9afb-efc51609b0a9.png" alt="Click to visit the Amazon Web Services Website." title="Amazon Web Services Website Link" class="link"></a>
-                <h6>Click the image to visit the AWS Website.</h6>
-                <h2><strong>Amazon Web Services (</strong><a href="../interests/cloud.html#iaas" title="Infrastructure as a Service">IaaS</a>) is a subsidiary of Amazon.com which provides on-demand cloud computing platforms free of virtual cluster to individuals and companies through the Internet 24/7.</h2>
+                <h3><strong>Amazon Web Services <a href="../interests/cloud.html#iaas" title="Infrastructure as a Service">(IaaS)</a></strong></h3>
+                <h3>is a subsidiary of Amazon.com which provides on-demand cloud computing platforms free of virtual cluster to individuals and companies through the Internet 24/7.</h3>
             </div>
             <div class="card">
-                <br/>
-                <a href="https://c9.io"><img src="https://amaze.website/wp-content/uploads/2016/02/cloud9.png" alt="Click to visit the Cloud9 IDE Website." title="Cloud9 IDE Website Link" class="link"></a>
-                <h6>Click the image to visit the Cloud 9 Website.</h6>
-                <h2><strong>Cloud9 IDE (</strong><a href="../interests/cloud.html#paas" title="Platform as a Service">PaaS</a>) is an online integrated development environment developed by Amazon which enables the user to code with pre-configured workspaces that supports hundreds of programming languages.</h2>
+                <h3><strong>Cloud9 IDE <a href="../interests/cloud.html#paas" title="Platform as a Service">(PaaS)</a></strong></h3>
+                <h3>is an online integrated development environment developed by Amazon which enables the user to code with pre-configured workspaces that supports hundreds of programming languages.</h3>
+            </div>
+            <a href="https://c9.io"><img src="https://amaze.website/wp-content/uploads/2016/02/cloud9.png" alt="Click to visit the Cloud9 IDE Website." title="Cloud9 IDE Website Link" class="link"></a>
+            <a href="https://www.salesforce.com/eu/"><img src="https://fontmeme.com/images/salesforce-logo.png" alt="Click to visit the Saleforce Website." title="Saleforce Website Link" class="link"></a>
+            <div class="card">
+                <h3><strong>Saleforce<a href="../interests/cloud.html#saas" title="Software as a Service">(SaaS)</a></strong></h3>
+                <h3>is a platform owned by  Salesforce.com, Inc. which provides companies with an interface for case & task management and a system for automatically routing and escalating important events.</h3>
             </div>
             <div class="card">
-                <br/>
-                <a href="https://www.salesforce.com/eu/"><img src="https://fontmeme.com/images/salesforce-logo.png" alt="Click to visit the Saleforce Website." title="Saleforce Website Link" class="link"></a>
-                <h6>Click the image to visit the Saleforce Website.</h6>
-                <h2><strong>Saleforce (</strong><a href="../interests/cloud.html#saas" title="Software as a Service">SaaS</a>) is a platform owned by  Salesforce.com, Inc. which provides companies with an interface for case & task management and a system for automatically routing and escalating important events.</h2>
+                <h3><strong>Gmail<a href="../interests/cloud.html#caas" title="Communication as a Service">(CaaS)</a></strong></h3>
+                <h3>is a free, advertising-supported email service developed by Google which allow users to access email contents through the web browser.</h3>
             </div>
-            <div class="card">
-                <br/>
-                <a href="https://www.google.com/gmail/about/#"><img src="https://profitablesites.com/wp/wp-content/uploads/2017/02/gmail.png" alt="Click to visit the Gmail Website." title="Gmail Website Link" class="link"></a>
-                <h6>Click the image to visit the Gmail Website.</h6>
-                <h2><strong>Gmail (</strong><a href="../interests/cloud.html#caas" title="Communication as a Service">CaaS</a>) is a free, advertising-supported email service developed by Google which allow users to access email contents through the web browser.</h2>
-            </div>
+            <a href="https://www.google.com/gmail/about/#"><img src="https://profitablesites.com/wp/wp-content/uploads/2017/02/gmail.png" alt="Click to visit the Gmail Website." title="Gmail Website Link" class="link"></a>
         </div>
         <br/>
         <br/>
         
         <!-- Button to go back to homepage and button to go to Ebus1 -->
-        <p><a href="Ebus1.php" class="button" id="button2">Start Shopping</button></a></p>
+        <p><a href="Ebus1.php" class="button" id="button2">Start Shopping</a></p>
+        
+        <!-- The footer -->
+        <div style="display:grid; grid-template-columns:40% 15% 15% 15% 15%; grid-gap:20px; background-color:rgb(142, 197, 191);">
+            <div style="width:100%;">
+                <br/>
+                <h2>Somewhere Main Street,</h2>
+                <h2>Tel: 990990990</h2>
+                <h2>Email: SmartestCloud@gmail.com</h2>
+                <br/>
+            </div>
+            <a href="https://www.facebook.com/"><img src="https://www.getdjtrump.com/imgs/facebook.png" alt="Click to visit the Facebook page." title="Facebook Link" class="profile"></a>
+            <a href="https://twitter.com/"><img src="https://vignette.wikia.nocookie.net/titanfall/images/4/4f/Icon_Twitter.png" alt="Click to visit the Twitter page." title="Twitter Link" class="profile"></a>
+            <a href="https://www.instagram.com/"><img src="https://nutsacbags.com/wp-content/uploads/instagram-white-300x300.png" alt="Click to visit the Instagram page." title="Instagram Link" class="profile"></a>
+            <a href="https://ie.linkedin.com/"><img src="https://cdn-static.findly.com/wp-content/uploads/sites/129/2016/05/linkedin-icon-wht.png" alt="Click to visit the LinkedIn page." title="LinkedIn Link" class="profile"></a>
+        </div>
+        
     </body>
     
 </html>
