@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="../allstyle.css" type="text/css"/>
         
         <!-- Refer to Javascript page -->
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
     </head>
     
     <body>

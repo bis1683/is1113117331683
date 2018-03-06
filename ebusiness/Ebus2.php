@@ -19,7 +19,7 @@ session_start();
         <link rel="stylesheet" href="../allstyle.css" type="text/css"/>
         
         <!-- Refer to Javascript page -->
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script src="ebus2_validator.js"></script>
     </head>
     
     <body>
