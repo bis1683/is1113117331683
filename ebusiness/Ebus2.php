@@ -69,13 +69,13 @@ session_start();
             <br/>
         
             <!-- Button to submit -->
-            <button type="submit" id="btnPurchase" class="button4" style="width:350px;" disabled>Proceed with Purchase</button>
+            <button type="submit" id="btnPurchase" class="button" style="background-color:rgb(237, 243, 241); border:2px solid rgb(27,161,184);" disabled>Proceed with Purchase</button>
             <br/>
             <br/>
         </form>
         
         <!-- Button to validate -->
-        <button class="button4" style="width:100px;" onClick="validateDetails()">Validate</button>
+        <button onClick="validateDetails()" class="button" id="button4">Validate</button>
         </div>    
         
         <?php
