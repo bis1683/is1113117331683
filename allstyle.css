@@ -27,7 +27,7 @@
 /* Styling used for all the buttons in the interest, about cloud and ebus files */
 
 .button{
-    display: inline-block;
+    display:inline-block;
     font-size:20px;
     padding:15px;
     border-radius:6px;

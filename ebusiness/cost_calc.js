@@ -48,7 +48,7 @@ function display(parm1, parm2, parm3, parm4){
     document.getElementById("vat").value = parm3; //Display vat
     document.getElementById("total").value = parm4; //Display total
     
-    enablebtnProceed();
+    enablebtnProceed(); //Activate btnProceed
 }
 
 //Function that enables the proceed button
